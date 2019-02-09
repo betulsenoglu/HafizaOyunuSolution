@@ -38,17 +38,19 @@
             // 
             // flwButtons
             // 
-            this.flwButtons.Location = new System.Drawing.Point(12, 69);
+            this.flwButtons.Location = new System.Drawing.Point(24, 133);
+            this.flwButtons.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.flwButtons.Name = "flwButtons";
-            this.flwButtons.Size = new System.Drawing.Size(319, 204);
+            this.flwButtons.Size = new System.Drawing.Size(638, 392);
             this.flwButtons.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(153, 28);
+            this.label1.Location = new System.Drawing.Point(306, 54);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.Size = new System.Drawing.Size(0, 25);
             this.label1.TabIndex = 1;
             // 
             // imageList1
@@ -68,11 +70,12 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(344, 282);
+            this.ClientSize = new System.Drawing.Size(688, 542);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.flwButtons);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
